@@ -1,12 +1,12 @@
 import React from 'react';
-import ApiData from './components/ApiData'
+import StateManagement from './components/StateManagement';
 import "./style.css";
 
 
 function App() {
   return (
     <>
-    <ApiData />
+    <StateManagement />
     </>
   );
 }
