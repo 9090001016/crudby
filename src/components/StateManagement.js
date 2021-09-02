@@ -39,6 +39,9 @@ const StateManagement = () => {
         });
         SetItems(remainingItem);
         };
+        useEffect(()=>{
+            localStorage.setItem("mytodolist",JSON.stringify(items));
+        },[items]);
     return (
         <>
         <div className="addItems">
