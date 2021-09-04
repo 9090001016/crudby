@@ -1,12 +1,13 @@
 import React from 'react';
-import StateManagement from './components/StateManagement';
+import Home from './components/Home';
+// import StateManagement from './components/StateManagement';
 import "./style.css";
 
 
 function App() {
   return (
     <>
-    <StateManagement />
+    <Home/>
     </>
   );
 }
